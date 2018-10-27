@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Uygulama2</string>
+    <string name="login_button">Giriş Yap</string>
+    <string name="register_textview">Üye değil misiniz? Hemen Kaydolun!</string>
+    <string name="register_button">Kaydol</string>
+    <string name="login_textview">Zaten üye misiniz? Hemen Giriş Yapın!</string>
+</resources>

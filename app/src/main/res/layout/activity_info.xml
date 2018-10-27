@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_design_icon">
+
+    <Button
+        android:id="@+id/update_b"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/password_et"
+        android:layout_below="@+id/password_tv"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="34dp"
+        android:background="@android:drawable/bottom_bar"
+        android:backgroundTint="@android:color/black"
+        android:text="Güncelle"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/begin_b"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/update_b"
+        android:layout_marginBottom="12dp"
+        android:background="@android:drawable/bottom_bar"
+        android:backgroundTint="@android:color/black"
+        android:text="Teste Başla"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/username_tv"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="182dp"
+        android:text="Ad:"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/name_et"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/name_tv"
+        android:background="@android:color/holo_red_light"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/white" />
+
+    <TextView
+        android:id="@+id/surname_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/name_tv"
+        android:layout_alignTop="@+id/surname_et"
+        android:text="Soyad:"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/surname_et"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/name_et"
+        android:layout_marginTop="23dp"
+        android:background="@android:color/holo_red_light"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/white" />
+
+    <TextView
+        android:id="@+id/mail_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mail_et"
+        android:layout_alignBottom="@+id/mail_et"
+        android:layout_alignEnd="@+id/surname_tv"
+        android:text="Mail:"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/mail_et"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/surname_tv"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_red_light"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/white" />
+
+    <TextView
+        android:id="@+id/username_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/username_et"
+        android:layout_marginStart="12dp"
+        android:text="Kullaıcı Adı:"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/username_et"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/mail_et"
+        android:layout_marginTop="22dp"
+        android:background="@android:color/holo_red_light"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/white" />
+
+    <TextView
+        android:id="@+id/password_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/mail_tv"
+        android:layout_alignTop="@+id/password_et"
+        android:text="Şifre:"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/username_tv"
+        android:layout_marginTop="26dp"
+        android:background="@android:color/holo_red_light"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/white" />
+
+</RelativeLayout>
